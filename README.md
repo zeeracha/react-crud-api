@@ -9,4 +9,5 @@
     - React AJAX : https://reactjs.org/docs/faq-ajax.html (using UseState(Hook))
     - Fetch api on "/" page (users page)
 
-2. page create desing : on UserCreate.jsx (create page)
+3. page create desing : on UserCreate.jsx (create page)
+4. create user api : use another api https://www.melivecode.com/api/users/create to create new user (get some code from postman </> (code snipped), selectd JavaScript - Fetch)
