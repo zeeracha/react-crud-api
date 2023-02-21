@@ -12,6 +12,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Avatar from '@mui/material/Avatar';
+import Link from '@mui/material/Link';
+
 
 export default function Users() {
 
@@ -40,7 +42,9 @@ export default function Users() {
                 </Typography>
                 </Box>
                 <Box>
-                <Button variant="contained">CREATE</Button>
+                    <Link href="/create">
+                        <Button variant="contained">CREATE</Button>
+                    </Link>
                 </Box>
             </Box>
 

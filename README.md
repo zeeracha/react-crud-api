@@ -8,3 +8,5 @@
 2. Api
     - React AJAX : https://reactjs.org/docs/faq-ajax.html (using UseState(Hook))
     - Fetch api on "/" page (users page)
+
+2. page create desing : on UserCreate.jsx (create page)
