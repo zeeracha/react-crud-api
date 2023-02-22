@@ -68,11 +68,11 @@ export default function UserCreate() {
                     onChange={(e)=> setUsername(e.target.value)}/>  
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <TextField id="email" label="email" variant="outlined" fullWidth required
+                    <TextField id="email" label="Email" variant="outlined" fullWidth required
                     onChange={(e)=> setEmail(e.target.value)}/>  
                 </Grid>
                 <Grid item xs={12}>
-                    <TextField id="avatar" label="avatar" variant="outlined" fullWidth required
+                    <TextField id="avatar" label="Avatar URL" variant="outlined" fullWidth required
                     onChange={(e)=> setAvatar(e.target.value)}/>  
                 </Grid>
                 <Grid item xs={12}>
